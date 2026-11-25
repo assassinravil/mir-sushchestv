@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f6f5fb; color: #222; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; background: #5b3fa0; }
+header a { color: #fff; text-decoration: none; margin-left: 16px; }
+header .logo { font-weight: bold; margin-left: 0; }
+main { max-width: 900px; margin: 0 auto; padding: 20px; }
+footer { text-align: center; color: #888; font-size: 13px; padding: 20px; }
+.cards { display: flex; flex-wrap: wrap; gap: 12px; }
+.card { display: block; width: 190px; padding: 12px; border-radius: 10px; background: #fff; color: #222; text-decoration: none; border-top: 6px solid #999; }
+.card.big { width: auto; }
+.card.fire { border-color: #e4572e; }
+.card.water { border-color: #3a86ff; }
+.card.nature { border-color: #2a9d55; }
+.card .name { font-weight: bold; font-size: 18px; }
+.card .element, .card .stats { color: #666; font-size: 14px; margin-top: 4px; }
+.pairs { columns: 2; }
+.log li { margin: 4px 0; }
+.winner { font-size: 20px; font-weight: bold; }
+.note { background: #fff3cd; padding: 10px; border-radius: 8px; }
